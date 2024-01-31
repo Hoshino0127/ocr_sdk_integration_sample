@@ -1,0 +1,1 @@
+# ocr_sdk_integration_sample
