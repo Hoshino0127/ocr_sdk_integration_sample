@@ -1,0 +1,29 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OCR Confirmation SDK</title>
+  <script src="./index.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+    <form id="myForm">
+        <br>
+        <label for="txtSessionId">Session ID:</label>
+        <input type="text" id="txtSessionId" name="txtSessionId" placeholder="Enter Session ID">
+        <br>
+        <label for="ddIdType">ID Type:</label>
+        <select id="ddIdType" name="ddIdType">
+            <option value="mykad">MyKad</option>
+            <option value="passport">Passport</option>
+            <option value="otherID">Other IDs</option>
+        </select>
+
+        <br>
+
+        <button type="submit" id="btnSubmit">Submit</button>
+    </form>
+</body>
+</html>
